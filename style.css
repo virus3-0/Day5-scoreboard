@@ -1,0 +1,66 @@
+
+.image{
+	background-image: url('./assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position-y:-0px;
+	font-family: 'Nunito Sans';
+	border: 10px;
+	margin: 50px;
+}
+h1{
+	font-size: 40px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-shadow: 1.5px 1.5px #000000
+}
+h3{
+	color:rgb(102, 102, 102);
+	font-size: 20px;
+	
+	margin-top: -25px;	
+}
+.header{
+	display: flex;
+	flex-direction: row-reverse;
+	background-color:transparent ;
+}
+table{
+	border: 1px solid white;
+	font-size: 16px;
+	border-collapse: collapse;
+	width: 53%;
+	height: 380px;
+	background-color: white;	
+	padding-left: 100px;
+	padding-right: 50px;
+}
+tr
+{
+	border-bottom: 1px solid grey;	
+	text-align:left;
+	
+}
+tr>th{
+	
+	padding: 7px;
+}
+tr>td{
+	padding: 7px;
+}
+#row1{
+	background-color: orangered;
+}
+#batsman{
+	background-color: rgb(236, 227, 227);
+}
+
+
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	margin-inline-end: 50px ;
+	font-family: Nunito Sans;
+    font-style: normal;
+}
